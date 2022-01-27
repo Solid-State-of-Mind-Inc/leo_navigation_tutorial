@@ -16,3 +16,13 @@ topics:
   topic   : joy_vel
   timeout : 0.5
   priority: 100
+-
+  name    : angle_limiter
+  topic   : rpy_limiter_vel
+  timeout : 0.0
+  priority: 200
+- 
+  name    : ui_joystick
+  topic   : ui_vel
+  timeout : 0.5
+  priority: 255
