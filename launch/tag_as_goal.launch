@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="tag_as_goal" 
+        pkg="leo_navigation" 
+        type="tag_as_goal">
+    <!-- <rosparam command="load" 
+              file="$(find leo_navigation)/config/tag_as_goal.yaml"/> -->
+  </node>
+
+</launch>
