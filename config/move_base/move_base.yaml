@@ -18,5 +18,5 @@ base_local_planner: eband_local_planner/EBandPlannerROS
 
 # Recovery behavior parameters
 recovery_behavior_enabled: true
-clearing_rotation_allowed: false
+clearing_rotation_allowed: true
 conservative_reset_dist: 2.0
