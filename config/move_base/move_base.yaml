@@ -1,7 +1,7 @@
 # http://wiki.ros.org/move_base#Parameters
 
 # General parameters
-controller_frequency: 10.0
+controller_frequency: 15.0
 planner_patience: 5.0
 controller_patience: 15.0
 shutdown_costmaps: false
@@ -11,10 +11,11 @@ planner_frequency: 0.0
 max_planning_retries: 5
 
 # Planner plugins
-base_global_planner: global_planner/GlobalPlanner
+#base_global_planner: global_planner/GlobalPlanner
+base_global_planner: carrot_planner/CarrotPlanner
 base_local_planner: base_local_planner/TrajectoryPlannerROS
 
 # Recovery behavior parameters
 recovery_behavior_enabled: true
-clearing_rotation_allowed: true
+clearing_rotation_allowed: false
 conservative_reset_dist: 2.0
